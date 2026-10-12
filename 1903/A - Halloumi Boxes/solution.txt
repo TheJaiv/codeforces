@@ -1,0 +1,11 @@
+test_cases = int(input())
+ 
+for i in range(0,test_cases):
+    k = int(input().split(' ')[1])
+    a = input().split(' ')
+    array = [int(x) for x in a]
+    if sorted(array) == array or k >1:
+        print("YES")
+    else:
+        print("NO")
+   
