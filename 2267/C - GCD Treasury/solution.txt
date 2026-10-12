@@ -1,0 +1,50 @@
+import sys
+import math
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a = input().split()
+        n = a[0]
+        x = int(a[1])
+        nums = list(map(int, input().split()))
+       
+        primes = []
+        d, y = 2, x
+        while d * d <= y:
+            if y % d == 0:
+                primes.append(d)
+                while y % d == 0:
+                    y //= d
+            d += 1
+        
+        if y > 1:
+            primes.append(y)
+ 
+        best = 0
+        for p in primes:
+            current_sum = 0
+            for x in nums:
+                if x % p == 0:
+                    current_sum += x
+                    
+            if current_sum > best:
+                best = current_sum
+ 
+        print(best)
+             
+      
+        
+ 
+        
+        
+                
+ 
+ 
+ 
+main()
