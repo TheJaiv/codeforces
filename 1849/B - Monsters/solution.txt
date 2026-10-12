@@ -1,0 +1,48 @@
+import sys
+ 
+input = sys.stdin.read
+ 
+data = input().split()
+ 
+index = 0
+ 
+t = int(data[index])  # Read the number of test cases
+index += 1
+ 
+results = []
+ 
+for _ in range(t):
+	n = int(data[index])  # Read the number of monsters
+	k = int(data[index + 1])  # Read the damage value
+	index += 2
+ 
+	# List to store pairs of health points and their respective indices
+	health_points = []
+	for i in range(n):
+		x = int(data[index])  # Read the initial health points of each monster
+		index += 1
+		# Store the health points and index (1-based) as a tuple
+		health_points.append((x, i + 1))
+ 
+	# Adjust the health points to determine the effective health after damage
+	for i in range(n):
+		# Calculate the remainder of health points when divided by k
+		health_points[i] = (health_points[i][0] % k, health_points[i][1])
+		# If the remainder is 0, set it to k to handle full damage cases
+		if health_points[i][0] == 0:
+			health_points[i] = (k, health_points[i][1])
+ 
+	# Sort the monsters based on effective health and index
+	# Sort in descending order of effective health, and ascending order of index if health is the same
+	health_points.sort(key=lambda x: (-x[0], x[1]))
+ 
+	# Collect the indices of monsters in the order they die
+	result = ' '.join(str(hp[1]) for hp in health_points)
+	results.append(result)
+ 
+# Print all results for each test case
+print('
+'.join(results))
+ 
+# Time Complexity (TC): O(nlogn) = O(3*10^5log(3*10^5)) = O(10^6)
+# Space Complexity (SC): O(n)
