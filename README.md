@@ -6,26 +6,26 @@
 
 | Total Problems | Topics |
 |---|---|
-| 73 | 18 |
+| 80 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (1)
-- [binary search](#binary-search) (2)
+- [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (17)
+- [brute force](#brute-force) (19)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (14)
-- [data structures](#data-structures) (1)
+- [constructive algorithms](#constructive-algorithms) (15)
+- [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
-- [games](#games) (2)
-- [geometry](#geometry) (1)
-- [greedy](#greedy) (32)
-- [implementation](#implementation) (18)
-- [math](#math) (32)
+- [games](#games) (3)
+- [geometry](#geometry) (2)
+- [greedy](#greedy) (34)
+- [implementation](#implementation) (22)
+- [math](#math) (34)
 - [number theory](#number-theory) (6)
 - [sortings](#sortings) (13)
 - [strings](#strings) (8)
@@ -45,6 +45,7 @@
 |---|---------|------------|----------|
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
+| 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### bitmasks
 
@@ -59,6 +60,7 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
+| 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1462/C%20-%20Unique%20Number/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.txt) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.txt) |
@@ -73,6 +75,7 @@
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.txt) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
+| 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### combinatorics
 
@@ -99,12 +102,14 @@
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | 1700 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.txt) |
 | 2263B | [Min Matrices](https://codeforces.com/contest/2263/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2263/B%20-%20Min%20Matrices/solution.txt) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.txt) |
+| 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.txt) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
+| 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.txt) |
 
 ### dfs and similar
 
@@ -127,12 +132,14 @@
 |---|---------|------------|----------|
 | 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.txt) |
 | 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2266/B%20-%20Three%20Piles/solution.txt) |
+| 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/B%20-%20MEX%20Game/solution.cpp) |
 
 ### geometry
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
+| 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.txt) |
 
 ### greedy
 
@@ -143,6 +150,7 @@
 | 230A | [Dragons](https://codeforces.com/contest/230/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/230/A%20-%20Dragons/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
+| 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1462/C%20-%20Unique%20Number/solution.cpp) |
 | 1469A | [Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1469/A%20-%20Regular%20Bracket%20Sequence/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
@@ -170,12 +178,14 @@
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.txt) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
+| 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 131A | [cAPS lOCK](https://codeforces.com/contest/131/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/131/A%20-%20cAPS%20lOCK/solution.cpp) |
+| 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/474/A%20-%20Keyboard/solution.cpp) |
 | 476A | [Dreamoon and Stairs](https://codeforces.com/contest/476/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/476/A%20-%20Dreamoon%20and%20Stairs/solution.cpp) |
 | 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.txt) |
@@ -193,6 +203,9 @@
 | 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.txt) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
+| 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.txt) |
+| 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.txt) |
+| 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 
 ### math
 
@@ -209,6 +222,7 @@
 | 1353C | [Board Moves](https://codeforces.com/contest/1353/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1353/C%20-%20Board%20Moves/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1418A | [Buying Torches](https://codeforces.com/contest/1418/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1418/A%20-%20Buying%20Torches/solution.cpp) |
+| 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1462/C%20-%20Unique%20Number/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
@@ -230,6 +244,7 @@
 | 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2266/B%20-%20Three%20Piles/solution.txt) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.txt) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.txt) |
+| 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.txt) |
 
 ### number theory
 
