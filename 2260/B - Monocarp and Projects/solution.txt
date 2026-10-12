@@ -1,0 +1,29 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        
+        a = input().split()
+        x = int(a[0])
+        y = int(a[1])
+        k = int(a[2])
+        
+        d = y - x
+        
+        b = min(x + k - 1, d)
+        total = 0
+        for i in range(x, b + 1):
+            total += d % i
+        total += d * (k - max(0, b - x + 1))
+        print(total)
+        
+        
+ 
+ 
+main()
