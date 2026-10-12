@@ -1,0 +1,16 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+   
+        a = input().split()
+        print(int(a[0]) , int(a[1])+int(a[2]))
+ 
+ 
+main()
