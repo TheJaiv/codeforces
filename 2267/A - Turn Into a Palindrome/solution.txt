@@ -1,0 +1,32 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a = input().split()
+        n = int(a[0])
+        s = input()
+        t = a[1]
+        first = 0
+        last = n-1
+        
+        count = 0
+        while(last>first):
+           
+            if s[first] != s[last]:
+                if s[first] != t :
+                    count += 1
+                if s[last] != t:
+                    count += 1
+            first += 1
+            last -= 1
+            
+        print(count)
+ 
+ 
+main()
