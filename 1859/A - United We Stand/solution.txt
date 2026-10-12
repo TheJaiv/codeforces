@@ -1,0 +1,53 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        n = int(input())
+        nums = sorted(list(map(int,input().split())))
+        a = []
+        b = []
+ 
+        if len(set(nums)) == 1:
+            print(-1)
+        else:
+            for i in nums:
+                if len(a) == 0:
+                    a.append(i)
+                    continue
+                elif (len(b) == 0) and  (a[0] % i == 0):
+                    if len(nums) == 2:
+                        b.append(a[0])
+                        a = [i]
+                        continue
+                    a.append(i)
+                    
+                    continue
+                elif len(b) == 0:
+                    b.append(i)
+                    continue
+                else:
+                    # print(str(i) + "1")
+                    divide = False
+                    for j in a:
+                        if j % i == 0:
+                            # print(str(i) + "3")
+                            a.append(i)
+                            divide = True
+                            break
+                    if divide == False:
+                        # print(str(i) + "2")
+                        b.append(i)
+            print(len(a),len(b))
+            print(' '.join(list(map(str,a))))
+            print(' '.join(list(map(str,b))))
+            
+        
+ 
+ 
+main()
