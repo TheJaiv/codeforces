@@ -1,0 +1,29 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+    
+        a = input().split()
+        n = int(a[0])
+        k = int(a[1])
+        nums = list(map(int, input().split()))
+        ans = 0
+        if n >= 2*k - 1:
+            ans += sum(nums[k-1:n-k+1])                      
+            for i in range(k-1):
+                ans += max(nums[k-2-i], nums[n-k+1+i])          
+        else:
+            for i in range(n-k+1):
+                ans += max(nums[n-k-i], nums[k-1+i])   
+        print(ans)       
+        
+ 
+ 
+ 
+main()
