@@ -1,0 +1,52 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a = input().split()
+        n = int(a[0])
+        k = int(a[1])
+        # print(n,k)
+        if k < n :
+            print(-1)
+        elif k > n*2 -1 :
+            print(-1) 
+        else:
+            lis = []
+            for i in range(0,n):
+                lis.append([0]*n)
+            # print(lis)
+            dev = n - k
+            row = 0
+            column = 0
+            for i in range(1,k+1):
+                if dev <= 0:
+                    lis[0][column] = i
+                    dev += 1
+                    column += 1
+                elif column < n-1:
+                    row += 1
+                    lis[row][column] = i
+                    column += 1
+                else:
+                    row+=1
+                    lis[row][n-1] = i
+            nums = n*n
+            for i in range(0,n):
+                for j in range(0,n):
+                    if lis[i][j] == 0:
+                        lis[i][j] = nums
+                        nums -= 1
+            for i in range(0,n):
+                print(' '.join(list(map(str, lis[i]))))
+ 
+            # print(lis)
+ 
+ 
+ 
+main()
