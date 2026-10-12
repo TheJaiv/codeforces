@@ -1,0 +1,32 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        n = int(input())
+        
+        nums = list(map(int,input().split()))
+        count = 0
+ 
+        for i in nums:
+            if i == 2:
+                count += 1
+        if count == 0:
+            print(1)
+        elif count%2 == 0:
+            c = 0
+            for i in range(0,n):
+                if nums[i] == 2:
+                    c += 1
+                    if c == count/2:
+                        print(i+1)
+                        break
+        else:
+            print(-1) 
+ 
+main()
