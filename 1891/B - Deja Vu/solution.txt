@@ -1,0 +1,35 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        n = int((input().split())[0])
+        a = list(map(int,input().split()))
+        x = list(map(int,input().split()))
+        applied = False
+        l = max(a)
+        for i in x:
+            if applied == False or i < min_xi:
+                if l >= (2**i) :
+ 
+                    for j in range(0,n):
+                        
+                        if a[j] % (2**i) == 0:
+                            a[j] += (2**(i-1))
+                            if applied == False:
+                                min_xi = i
+                                applied = True
+                            valid = True
+                
+                    
+                        min_xi = i
+        print(' '.join(list(map(str,a))))
+ 
+ 
+ 
+main()
