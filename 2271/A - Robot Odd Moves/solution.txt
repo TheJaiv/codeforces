@@ -1,0 +1,19 @@
+import sys
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a = input().split()
+        x = int(a[0])
+        y = int(a[1])
+        if y > x + 1:
+            print(-1)
+        elif (x - y) % 2 == 0:
+            print(x)
+        else:
+            print(x + 1)
+ 
+main()
