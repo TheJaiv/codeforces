@@ -1,0 +1,26 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        n = int(input())
+        nums = list(map(int,input().split()))
+        zeros = 0
+        ones = 0
+        for i in nums:
+            if i == 0:
+                zeros += 1
+            else:
+                ones += 1
+        if ones >= zeros :
+            print("Bessie")
+        else:
+            print("Elsie")
+ 
+ 
+main()
