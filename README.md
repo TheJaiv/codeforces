@@ -6,25 +6,32 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 11 |
+| 15 | 12 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (5)
+- [binary search](#binary-search) (1)
+- [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (2)
 - [dp](#dp) (1)
-- [greedy](#greedy) (5)
-- [implementation](#implementation) (2)
+- [greedy](#greedy) (6)
+- [implementation](#implementation) (3)
 - [math](#math) (8)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (2)
 - [strings](#strings) (1)
-- [two pointers](#two-pointers) (1)
+- [two pointers](#two-pointers) (2)
 
 ---
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 
 ### brute force
 
@@ -35,6 +42,7 @@
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.txt) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
+| 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 
 ### combinatorics
 
@@ -64,6 +72,7 @@
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.txt) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
 | 2259C | [101](https://codeforces.com/contest/2259/problem/C) | 1000 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/2259/C%20-%20101/solution.py) |
+| 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 
 ### implementation
 
@@ -71,6 +80,7 @@
 |---|---------|------------|----------|
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
+| 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 
 ### math
 
@@ -109,6 +119,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/TheJaiv/codeforces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
+| 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 
 ---
 
