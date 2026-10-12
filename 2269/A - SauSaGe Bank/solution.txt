@@ -1,0 +1,20 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a = input().split()
+        n = int(a[0])
+        k = int(a[1])
+        
+        coins = 2*(k-1)
+        coins += 2**(n-k+1)
+        print(coins)
+ 
+ 
+main()
