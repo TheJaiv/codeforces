@@ -1,0 +1,21 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        i = input().split()
+        a = int(i[0])
+        b = int(i[1])
+        c = int(i[2])
+        if (a+c-b) < (b-a):
+            print(b-a)
+        else:
+            print(a+c-b)
+ 
+ 
+main()
