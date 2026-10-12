@@ -1,0 +1,41 @@
+test_cases = int(input())
+for i in range(0,test_cases):
+    a = input().split(' ')
+    k = int(a[1])
+    nums = list(map(int, input().split(' ')))
+ 
+    rem = k+1
+    count = [0,0,0]
+    even = 0
+    if k == 4:
+        for i in nums:
+            if i % 4 == 0:
+                print("0")
+                count = [0,0,0]
+                break
+            if i % 4 == 1:
+                count[0] += 1
+            elif i % 4 == 2:
+                count[1] += 1
+            else:
+                count[2] += 1
+ 
+        if count[1] >= 2:
+            print("0")
+        elif count[2] >= 1. or (count[1] == 1 and (count[0] >= 1 or count[2] >= 1)) :
+            print("1")
+        elif count[0] >= 2:
+            print("2")
+        elif count[0] == 1:
+            print("3")
+            
+         
+    else:
+        for i in nums:
+            nrem = k - (i % k)
+            if nrem == k:
+                rem = 0
+                break
+            elif nrem < rem:
+                rem = nrem
+        print(rem)
