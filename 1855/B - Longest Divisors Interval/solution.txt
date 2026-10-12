@@ -1,0 +1,21 @@
+import math
+ 
+ 
+test_cases = int(input())
+for i in range(0,test_cases):
+    num = int(input())
+    count = 1
+ 
+    while True:
+        if num % count == 0:
+            count += 1
+        
+            continue
+        else:
+            break
+    print(count-1)
+        
+ 
+            
+ 
+        
