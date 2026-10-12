@@ -1,0 +1,8 @@
+no = int(input())
+num = input().split(' ')
+ 
+least = abs(int(num[0]))
+for i in num:
+    if abs(int(i)) < least:
+        least = abs(int(i))
+print(least)
