@@ -1,0 +1,28 @@
+import sys
+ 
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        n = int(input())
+        p = list(map(int, input().split()))
+        dic=[]
+        for i in range(n):
+            if p[i] != i + 1:
+                dic.append(i)
+        m = len(dic)
+        ok = True
+        for j in range(m):
+            if p[dic[j]] != (dic[m - 1 - j]+1 ):
+                ok = False
+ 
+      
+        
+        print("YES" if ok == True else "NO")
+ 
+ 
+main()
