@@ -1,0 +1,4 @@
+test_cases = int(input())
+for _ in range(test_cases):
+    chars = input()
+    print("NO" if (chars[0] == ')' or chars[len(chars)-1] == '(' or len(chars) % 2 != 0) else "YES")
