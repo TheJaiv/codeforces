@@ -1,0 +1,58 @@
+def main():
+	import sys
+	input = sys.stdin.read
+	data = input().split()
+ 
+	# Arrays to represent the possible directions a knight can move
+	dx = [-1, 1, -1, 1]
+	dy = [-1, -1, 1, 1]
+ 
+	index = 0
+	t = int(data[index])  # Number of test cases
+	index += 1
+ 
+	results = []
+ 
+	for _ in range(t):
+		a = int(data[index])  # Knight's move parameters
+		b = int(data[index + 1])
+		index += 2
+		x_king = int(data[index])  # Position of the king
+		y_king = int(data[index + 1])
+		index += 2
+		x_queen = int(data[index])  # Position of the queen
+		y_queen = int(data[index + 1])
+		index += 2
+		# Inputs are read
+ 
+		# Sets to store positions attacked by the knight when placed to attack king and queen
+		king_hits = set()
+		queen_hits = set()
+ 
+		# Calculate all possible positions that can be attacked by the knight
+		for j in range(4):
+			# Calculate positions attacked by the knight when placed to attack the king
+			king_hits.add((x_king + dx[j] * a, y_king + dy[j] * b))
+			king_hits.add((x_king + dx[j] * b, y_king + dy[j] * a))
+ 
+			# Calculate positions attacked by the knight when placed to attack the queen
+			queen_hits.add((x_queen + dx[j] * a, y_queen + dy[j] * b))
+			queen_hits.add((x_queen + dx[j] * b, y_queen + dy[j] * a))
+ 
+		ans = 0  # Variable to store the number of positions where the knight can fork the king and queen
+		# Check for common positions in both sets
+		for position in king_hits:
+			if position in queen_hits:
+				ans += 1
+ 
+		results.append(ans)  # Store the result for the current test case
+ 
+	# Output all results
+	for result in results:
+		print(result)
+ 
+# Time Complexity (TC): O(8*log2(8)) = O(8*3) = O(24)
+# Space Complexity (SC): O(8)
+ 
+if __name__ == "__main__":
+	main()
