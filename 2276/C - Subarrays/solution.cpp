@@ -53,14 +53,14 @@ void dbg_out(const H &h, const T &...t) {
 void solve() {
     ll n,k;
     cin >> n >> k;
-    vi a(n);
+    
     vi psum(n+1, 0);
     
     for (ll i = 0 ; i < n ; i++){ 
-        
-        cin >> a[i]; 
+        int x;
+        cin >>x; 
        
-        psum[i+1] = (psum[i] + a[i]) % k ;}
+        psum[i+1] = (psum[i] + x) % k ;}
     unordered_map<ll,ll> dic;
     ll ans = 0;
  
