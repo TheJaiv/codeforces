@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 80 | 18 |
+| 82 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (19)
@@ -38,6 +38,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.txt) |
+| 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 
 ### binary search
 
