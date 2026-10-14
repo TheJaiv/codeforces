@@ -54,17 +54,12 @@ void solve() {
     string a;
     cin >> a;
     ll n = a.size();
-    int zero = 0;
-    int one = 0;
+   
     int alone = 0;
     int triplet = 0;
-    if (a[0] == '0') zero = 1;
-    if (a[0] == '1') one = 1;
-    if (a[n-1] == '0') zero = 1;
-    if (a[n-1] == '1') one = 1;
+    
     for(ll i= 1 ; i <n-1; i++){
-        if (zero != 0 and a[i] == '0' ) zero = 1;
-        if (one != 0 and a[i] == '1' ) one = 1;
+        
         if (a[i-1] != a[i] and a[i+1] != a[i] ) alone = 1;
         if (a[i-1] == a[i] and a[i+1] == a[i]) triplet = 1;
  
