@@ -1,0 +1,18 @@
+import sys
+ 
+def input():
+    return sys.stdin.readline().rstrip()
+ 
+ 
+def main():
+    test_cases = int(input())
+    for _ in range(test_cases):
+        a, b = map(int, input().split())
+        if a > b:
+            print(min(b, a - b))
+        else:
+            print(-1)
+        
+ 
+ 
+main()
