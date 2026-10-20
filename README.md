@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 85 | 18 |
+| 86 | 18 |
 
 ---
 
@@ -25,8 +25,8 @@
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (34)
 - [implementation](#implementation) (23)
-- [math](#math) (34)
-- [number theory](#number-theory) (6)
+- [math](#math) (35)
+- [number theory](#number-theory) (7)
 - [sortings](#sortings) (13)
 - [strings](#strings) (9)
 - [two pointers](#two-pointers) (5)
@@ -223,6 +223,7 @@
 | 610A | [Pasha and Stick](https://codeforces.com/contest/610/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/610/A%20-%20Pasha%20and%20Stick/solution.cpp) |
 | 688B | [Lovely Palindromes](https://codeforces.com/contest/688/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/688/B%20-%20Lovely%20Palindromes/solution.cpp) |
 | 1102A | [Integer Sequence Dividing](https://codeforces.com/contest/1102/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1102/A%20-%20Integer%20Sequence%20Dividing/solution.cpp) |
+| 1165D | [Almost All Divisors](https://codeforces.com/contest/1165/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1165/D%20-%20Almost%20All%20Divisors/solution.cpp) |
 | 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.cpp) |
 | 1353C | [Board Moves](https://codeforces.com/contest/1353/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1353/C%20-%20Board%20Moves/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
@@ -255,6 +256,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1165D | [Almost All Divisors](https://codeforces.com/contest/1165/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1165/D%20-%20Almost%20All%20Divisors/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.txt) |
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
