@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 87 | 18 |
+| 88 | 18 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (20)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (16)
+- [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
@@ -25,8 +25,8 @@
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (35)
 - [implementation](#implementation) (23)
-- [math](#math) (35)
-- [number theory](#number-theory) (7)
+- [math](#math) (36)
+- [number theory](#number-theory) (8)
 - [sortings](#sortings) (13)
 - [strings](#strings) (9)
 - [two pointers](#two-pointers) (5)
@@ -95,6 +95,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 688B | [Lovely Palindromes](https://codeforces.com/contest/688/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/688/B%20-%20Lovely%20Palindromes/solution.cpp) |
+| 1454D | [Number into Sequence](https://codeforces.com/contest/1454/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1454/D%20-%20Number%20into%20Sequence/solution.cpp) |
 | 1469A | [Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1469/A%20-%20Regular%20Bracket%20Sequence/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
@@ -232,6 +233,7 @@
 | 1353C | [Board Moves](https://codeforces.com/contest/1353/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1353/C%20-%20Board%20Moves/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1418A | [Buying Torches](https://codeforces.com/contest/1418/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1418/A%20-%20Buying%20Torches/solution.cpp) |
+| 1454D | [Number into Sequence](https://codeforces.com/contest/1454/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1454/D%20-%20Number%20into%20Sequence/solution.cpp) |
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1462/C%20-%20Unique%20Number/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
@@ -261,6 +263,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1165D | [Almost All Divisors](https://codeforces.com/contest/1165/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1165/D%20-%20Almost%20All%20Divisors/solution.cpp) |
+| 1454D | [Number into Sequence](https://codeforces.com/contest/1454/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1454/D%20-%20Number%20into%20Sequence/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.txt) |
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
