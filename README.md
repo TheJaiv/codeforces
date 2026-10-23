@@ -6,29 +6,29 @@
 
 | Total Problems | Topics |
 |---|---|
-| 88 | 18 |
+| 90 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (5)
-- [binary search](#binary-search) (3)
+- [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (20)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (17)
-- [data structures](#data-structures) (2)
+- [constructive algorithms](#constructive-algorithms) (18)
+- [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (35)
+- [greedy](#greedy) (37)
 - [implementation](#implementation) (23)
 - [math](#math) (36)
 - [number theory](#number-theory) (8)
 - [sortings](#sortings) (13)
-- [strings](#strings) (9)
+- [strings](#strings) (10)
 - [two pointers](#two-pointers) (5)
 
 ---
@@ -47,6 +47,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1551B2 | [Wonderful Coloring - 2](https://codeforces.com/contest/1551/problem/B2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B2%20-%20Wonderful%20Coloring%20-%202/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
@@ -98,6 +99,7 @@
 | 1454D | [Number into Sequence](https://codeforces.com/contest/1454/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1454/D%20-%20Number%20into%20Sequence/solution.cpp) |
 | 1469A | [Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1469/A%20-%20Regular%20Bracket%20Sequence/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
+| 1551B2 | [Wonderful Coloring - 2](https://codeforces.com/contest/1551/problem/B2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B2%20-%20Wonderful%20Coloring%20-%202/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
@@ -116,6 +118,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1551B2 | [Wonderful Coloring - 2](https://codeforces.com/contest/1551/problem/B2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B2%20-%20Wonderful%20Coloring%20-%202/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.txt) |
 
@@ -161,6 +164,8 @@
 | 1462C | [Unique Number](https://codeforces.com/contest/1462/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1462/C%20-%20Unique%20Number/solution.cpp) |
 | 1469A | [Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1469/A%20-%20Regular%20Bracket%20Sequence/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
+| 1551B1 | [Wonderful Coloring - 1](https://codeforces.com/contest/1551/problem/B1) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B1%20-%20Wonderful%20Coloring%20-%201/solution.cpp) |
+| 1551B2 | [Wonderful Coloring - 2](https://codeforces.com/contest/1551/problem/B2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B2%20-%20Wonderful%20Coloring%20-%202/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
 | 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.cpp) |
 | 1704C | [Virus](https://codeforces.com/contest/1704/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1704/C%20-%20Virus/solution.cpp) |
@@ -299,6 +304,7 @@
 | 499B | [Lecture](https://codeforces.com/contest/499/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/499/B%20-%20Lecture/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.txt) |
+| 1551B1 | [Wonderful Coloring - 1](https://codeforces.com/contest/1551/problem/B1) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B1%20-%20Wonderful%20Coloring%20-%201/solution.cpp) |
 | 1913B | [Swap and Delete](https://codeforces.com/contest/1913/problem/B) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1913/B%20-%20Swap%20and%20Delete/solution.txt) |
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.txt) |
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.txt) |
