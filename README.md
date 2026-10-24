@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 90 | 18 |
+| 91 | 18 |
 
 ---
 
@@ -18,13 +18,13 @@
 - [brute force](#brute-force) (20)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (18)
-- [data structures](#data-structures) (3)
+- [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (37)
-- [implementation](#implementation) (23)
+- [implementation](#implementation) (24)
 - [math](#math) (36)
 - [number theory](#number-theory) (8)
 - [sortings](#sortings) (13)
@@ -118,6 +118,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1106B | [Lunar New Year and Food Ordering](https://codeforces.com/contest/1106/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1106/B%20-%20Lunar%20New%20Year%20and%20Food%20Ordering/solution.cpp) |
 | 1551B2 | [Wonderful Coloring - 2](https://codeforces.com/contest/1551/problem/B2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1551/B2%20-%20Wonderful%20Coloring%20-%202/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.txt) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.txt) |
@@ -202,6 +203,7 @@
 | 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/474/A%20-%20Keyboard/solution.cpp) |
 | 476A | [Dreamoon and Stairs](https://codeforces.com/contest/476/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/476/A%20-%20Dreamoon%20and%20Stairs/solution.cpp) |
 | 499B | [Lecture](https://codeforces.com/contest/499/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/499/B%20-%20Lecture/solution.cpp) |
+| 1106B | [Lunar New Year and Food Ordering](https://codeforces.com/contest/1106/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1106/B%20-%20Lunar%20New%20Year%20and%20Food%20Ordering/solution.cpp) |
 | 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.txt) |
 | 1704C | [Virus](https://codeforces.com/contest/1704/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/1704/C%20-%20Virus/solution.cpp) |
