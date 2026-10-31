@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 95 | 18 |
+| 96 | 18 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [games](#games) (3)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (39)
-- [implementation](#implementation) (27)
+- [implementation](#implementation) (28)
 - [math](#math) (37)
 - [number theory](#number-theory) (8)
 - [sortings](#sortings) (14)
@@ -204,6 +204,7 @@
 |---|---------|------------|----------|
 | 131A | [cAPS lOCK](https://codeforces.com/contest/131/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/131/A%20-%20cAPS%20lOCK/solution.cpp) |
 | 147A | [Punctuation](https://codeforces.com/contest/147/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/147/A%20-%20Punctuation/solution.cpp) |
+| 227B | [Effective Approach](https://codeforces.com/contest/227/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/227/B%20-%20Effective%20Approach/solution.cpp) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
 | 474A | [Keyboard](https://codeforces.com/contest/474/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/474/A%20-%20Keyboard/solution.cpp) |
 | 476A | [Dreamoon and Stairs](https://codeforces.com/contest/476/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/476/A%20-%20Dreamoon%20and%20Stairs/solution.cpp) |
