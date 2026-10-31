@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/147/problem/A" target="_blank" rel="noopener noreferrer">147A — Punctuation</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 147A](https://codeforces.com/contest/147/problem/A) |
+
+## Topics
+`implementation` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Punctuation</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>You are given a text that consists of lowercase Latin letters, spaces and punctuation marks (dot, comma, exclamation mark and question mark). A word is defined as a sequence of consecutive Latin letters.</p><p>Your task is to add spaces to the text by the following rules:</p><ul> <li> if there is no punctuation mark between two words, then they should be separated by exactly one space </li><li> there should be no spaces before each punctuation mark </li><li> there should be exactly one space after each punctuation mark </li></ul><p>It is guaranteed that there is at least one word between any two punctuation marks. The text begins and ends with a Latin letter.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input data contains of a single non-empty line — the text whose length is no more than 10000 characters.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the text, edited according to the rules. In this problem you should follow the output format very strictly. For example, extra space at the end of the output line is considered as wrong answer. Note that a newline character at the end of the line doesn't matter.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009606069721512133" id="id008694906317868569" class="input-output-copier">Copy</div></div><pre id="id009606069721512133">galileo galilei was an   italian physicist  ,mathematician,astronomer<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006057233617853183" id="id006986664003821467" class="input-output-copier">Copy</div></div><pre id="id006057233617853183">galileo galilei was an italian physicist, mathematician, astronomer<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008728828599446101" id="id006045493795610792" class="input-output-copier">Copy</div></div><pre id="id008728828599446101">galileo  was  born  in  pisa<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008318581802219007" id="id009892134029478383" class="input-output-copier">Copy</div></div><pre id="id008318581802219007">galileo was born in pisa<br></pre></div></div></div>
