@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 97 | 18 |
+| 99 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (5)
+- [Uncategorized](#uncategorized) (6)
 - [binary search](#binary-search) (5)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (22)
@@ -23,7 +23,7 @@
 - [dp](#dp) (4)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (39)
+- [greedy](#greedy) (40)
 - [implementation](#implementation) (28)
 - [math](#math) (37)
 - [number theory](#number-theory) (8)
@@ -42,6 +42,7 @@
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | Unrated | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 | 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2276/C%20-%20Subarrays/solution.cpp) |
+| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### binary search
 
@@ -199,6 +200,7 @@
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | 800 | [PyPy 3-64](https://github.com/TheJaiv/codeforces/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.txt) |
 | 2271D | [Target Infection](https://codeforces.com/contest/2271/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2271/D%20-%20Target%20Infection/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/TheJaiv/codeforces/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 
 ### implementation
 
